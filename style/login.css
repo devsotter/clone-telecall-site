@@ -1,0 +1,108 @@
+/* geral */
+
+@import url(reset.css);
+@import url(menu.css);
+@import url(footer.css);
+
+input,
+label {
+  margin-top: 10px;
+display: block;
+outline: none;
+width: 100%;
+}
+
+a {
+color: #1970a3b7;
+}
+
+
+
+.center-login {
+  height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 100px 0;
+;
+
+}
+/* form */
+#main-container {
+  margin: 20px;
+  border: 1px solid rgb(182, 182, 182);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+width: 430px;
+background-color: #FFF;
+border-radius: 10px;
+padding: 25px;
+}
+
+#main-container h1 {
+text-align: center;
+margin-bottom: 25px;
+font-size: 1.6rem;
+}
+
+form {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.full-box {
+flex: 1 1 100%;
+position: relative;
+}
+
+.half-box {
+flex: 1 1 45%;
+position: relative;
+}
+
+.spacing {
+margin-right: 2.5%;
+}
+
+label {
+font-weight: bold;
+font-size: .8rem;
+}
+
+input {
+border-bottom: 2px solid #323232;
+padding: 10px;
+font-size: .9rem;
+margin-bottom: 40px;
+}
+
+input:focus {
+border-color: #ff0000;
+}
+
+input[type="submit"] {
+background: linear-gradient(#ca1c2a, #721b2b);
+color: #FFF;
+border: none;
+border-radius: 20px;
+height: 40px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(#92141e, #922338);
+
+
+}
+
+
+.error-validation {
+color: #ff1a1a;
+position: absolute;
+top: 57px;
+font-size: 12px;
+}
+
+.template {
+display: none;
+}

@@ -1,0 +1,90 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.cardWrapper {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  perspective: 1000px;
+  width: 100%;
+
+}
+.card {
+  width: 200px;
+  height: 290px;
+  border-radius: 18px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  background: linear-gradient(#ca1c2a, #721b2b);
+  color: white;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+.logo-card {
+  pointer-events: none;
+}
+.card .chip {
+  height: 100%;
+  width: 70px;
+  position: relative;
+  left: 32%;
+  bottom: -20%;
+  pointer-events: none;
+}
+
+.highlight {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.13);
+  filter: brightness(70%) blur(20px);
+  color: #333;
+  font-weight: bold;
+  left: -20%;
+  top: -13%;
+  pointer-events: none;
+}
+
+
+
+.card-name {
+    height: 100%;
+    font-size: 3rem;
+    line-height: 0;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.box-card {
+
+   flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    margin: 100px auto;
+
+
+}
+
+.box-card h1 {
+  margin: 20px 0;
+}
+
+.section-cartao {
+    line-height: 30px;
+    margin: 20px;
+    max-width: 500px;
+    font-size: 1.3em;
+}
+
+.section-cartao h1 {
+    color: #003B71;
+}

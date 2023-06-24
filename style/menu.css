@@ -1,0 +1,105 @@
+.lista-cliente {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.menu-bg {
+  background: linear-gradient(#ca1c2a, #721b2b);
+  box-shadow: 5px 5px 10px rgb(92, 92, 92);
+}
+
+.lista-cliente a {
+  padding: 10px 15px;
+  margin: 0 5px;
+  color: #ffffff;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.lista-cliente .area-cliente {
+  background-color: #484e57;
+  border-radius: 25px;
+  color: #ffffff;
+  margin: 5px 15px 5px 60px;
+  font-weight: 400;
+}
+
+.lista-cliente li a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #4169e1;
+  margin-top: 4px;
+  transition: 0.3s;
+}
+
+.lista-cliente li a:hover:after {
+  width: 100%;
+}
+
+.menu-principal {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-principal img {
+  width: 200px;
+  padding: 20px 10px;
+  position: relative;
+  top: -0.9px;
+  transition: 0.8s;
+}
+
+.lista-cliente li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Submenu----------*/
+
+.submenu {
+  display: none;
+    position: absolute;
+  bottom: -155px;
+  z-index: 10 ; 
+  border-radius: 5px;
+}
+
+.submenu.active {
+  display: block;
+  background: linear-gradient(#ca1c2a, #721b2b);
+
+}
+
+
+.submenu.active {
+  display: block;
+  background: linear-gradient(#ca1c2a, #721b2b);
+
+}
+
+
+.submenu2.active {
+  display: block;
+  background: linear-gradient(#ca1c2a, #721b2b);
+
+}
+
+.submenu2{
+  border-radius: 5px;
+bottom: -65px;
+position: absolute;
+z-index: 100;
+display: none;
+}
+

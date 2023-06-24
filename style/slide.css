@@ -1,0 +1,145 @@
+
+/* Slideshow container */
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 95%;
+    position: relative;
+    margin: auto;
+    
+  }
+  
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    
+  }
+
+  .mySlide img {
+    border-radius: 5px;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev { 
+    
+    background: linear-gradient(#ca1c2a, #721b2b);
+    left: 0;
+    opacity: 40%;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    background: linear-gradient(#ca1c2a, #721b2b);
+    border-radius: 3px 0 0 3px;
+    opacity: 40%;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background: linear-gradient(#ca1c2b, #721b2b);
+    opacity: 100%;
+  }
+  
+  /* Título do banner */
+  .banner-responsivo-titulo {
+    
+    color: #fff;
+    bottom: 48%;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0.05em #333;
+  }
+  /* Subtítulo do banner */
+  .banner-responsivo-legenda {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0.05em #333;
+  }
+  
+  .button1 {
+    background-color: #4169e1; /* Azul escuro */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 15%;
+    min-width: 250px;
+    bottom: 0px;
+    left: 50%;
+    position: absolute;
+    box-shadow: 2px 2px 2px #333;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .button1:hover {
+    background-color: #00246c;
+    color: white;
+    box-shadow: 2px 2px 2px #333;
+  }
+  
+  
+  
+  /* The dots/bullets/indicators */
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  

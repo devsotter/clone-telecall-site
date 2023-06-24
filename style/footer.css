@@ -1,0 +1,85 @@
+.rodape-topo {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rodape-topo .logo-footer {
+  width: 150px;
+  margin: 10px;
+}
+
+.footer-bg {
+  background-color: #31353b;
+  width: 100%;
+  border-bottom: 1px solid rgb(120, 120, 120);
+}
+
+.icones-footer {
+  display: flex;
+}
+
+.icones-footer svg {
+  width: 50px;
+  margin: 0 10px;
+}
+
+
+.nav-bg {
+    background-color: #31353b;
+    width: 100%;
+  }
+  
+.nav-footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav-footer nav {
+  margin: 10px;
+}
+
+.nav-footer .grupo {
+    flex: 1 200px;
+    border-right: 1px solid #787878;
+    margin: 10px;
+    width: 340px;
+
+
+}
+
+
+nav h6 {
+    margin: 15px 0;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: white;
+}
+nav a {
+    color: #dcdcdc;
+
+}
+nav li {
+    line-height: 20px;
+}
+
+.bg-copy {
+    background-color: #363636;
+
+}
+
+.copy p{
+    max-width: 1440px;
+    margin: 0 auto;
+    color: rgba(255,255,255,0.37);
+    font-size: 14px;
+    font-weight: 300;
+    padding: 20px;
+}
+

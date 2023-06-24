@@ -1,0 +1,263 @@
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-principal img {
+  width: 100%;
+  margin: 10px;
+}
+section {
+  margin-bottom: 100px;
+}
+
+main {
+  margin-bottom: 70px;
+}
+
+.solucoes {
+  max-width: 1440px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+section h1 {
+  text-align: center;
+  margin: 50px;
+  font-size: 2.1em;
+  color: #003b71;
+}
+
+.box {
+  flex: auto;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 1px 2px 8px -1px rgba(109.50000000000001, 106.92913334058679, 106.92913334058679, 0.5);
+  border-radius: 30px;
+  width: 350px;
+}
+
+.box 
+.solucoes h2 {
+  text-transform: uppercase;
+  color: #0170b9;
+}
+.box p {
+  max-width: 350px;
+  margin: 20px 0;
+}
+.box h2 {
+  margin: 20px 0;
+}
+.botao {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.btn {
+  background-color: #0170b9;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 30px;
+  border: 3px solid #0170b9;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ffff;
+  color: #0170b9;
+}
+
+.planos {
+  background-color: rgba(202, 202, 202, 0.729);
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+
+}
+.planos li {
+  cursor: default;
+}
+
+.slideshow-container img {
+  border-radius: 5px;
+}
+
+.planos img {
+  width: 600px;
+  margin: 20px;
+  border: 1px solid #2c2c2c;
+}
+
+.lista-planos li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  background: linear-gradient(#ca1c2a, #721b2b);
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  box-shadow: 0px 0px 0px #2c2c2c;
+  transition: 0.1s;
+  border: 1px solid #2c2c2c;
+}
+
+.lista-planos li:hover {
+  box-shadow: 5px 5px 10px black;
+  transform: scale(1.05);
+}
+
+.lista-planos {
+  margin: 20px;
+  padding: 0;
+}
+.lista-planos img {
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  margin: 5px;
+}
+
+.caixa-icone {
+  display: inline-block;
+}
+.caixa-icone svg {
+  width: 70px;
+  background-color: #0170b9;
+  padding: 10px;
+  border-radius: 50%;
+  border: 5px solid #0170b9;
+}
+.caixa-icone svg:hover {
+  background-color: white;
+  fill: #0170b9;
+}
+
+.mapa {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url(../img/mapa-fibra-rj.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 5px;
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.distancia {
+  background-color: white;
+  max-width: 480px;
+  padding: 40px;
+  border-radius: 5px;
+  border: 2px solid #0170b9;
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  position: absolute;
+  margin: 20px;
+  bottom: -120px;
+  right: 0;
+}
+.distancia p {
+  margin: 10px 0;
+
+}
+.distancia h2 {
+  color: #0f6aa9;
+}
+.align-card {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.card-rj {
+  display: none;
+}
+
+.align-btn {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.h1-rel {
+  position: relative;
+  bottom: -150px;
+}
+.clientes {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.titulo-cliente {
+  padding-top: 100px;
+}
+.wrapper-clientes {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.box-cliente {
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  margin: 20px;
+  flex: 1 350px;
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-cliente img {
+  margin: 20px;
+}
+.box-cliente .desc-cliente {
+  font-size: 1.3em;
+  font-style: italic;
+  line-height: 1.5;
+  color: #7a7a7a;
+}
+
+.nome-cliente > p {
+  margin: 0;
+}
+.box-cliente .nome-cliente {
+  text-align: left;
+ 
+}
+.box-cliente .nome {
+ text-align: center;
+ margin: 10px;
+}
+
+.box-cliente img {
+  width: 150px;
+}
+
+.box-cliente .profissao {
+  color: #183269;
+}

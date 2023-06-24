@@ -1,0 +1,185 @@
+@import url(reset.css);
+@import url(menu.css);
+@import url(footer.css);
+
+ h1 {
+  margin: 20px;
+  display: inline-block;
+  padding: 5px;
+}
+.box-fluxo {
+  height: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.box {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  max-width: 300px;
+  height: 300px;
+}
+.box .note1 {
+  width: 300px;
+}
+
+.box1 {
+  position: relative;
+}
+.box1::after {
+  content: "1";
+  width: 50px;
+  height: 50px;
+  background-color: #0170b9;
+  display: block;
+  position: absolute;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+  top: -10px;
+}
+
+.box2 {
+  position: relative;
+}
+.box2::after {
+  content: "2";
+  width: 50px;
+  height: 50px;
+  background-color: #0170b9;
+  display: block;
+  position: absolute;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+  top: -10px;
+}
+.box3 {
+  position: relative;
+}
+.box3::after {
+  content: "3";
+  width: 50px;
+  height: 50px;
+  background-color: #0170b9;
+  display: block;
+  position: absolute;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+  top: -10px;
+}
+.box4 {
+  position: relative;
+}
+.box4::after {
+  content: "4";
+  width: 50px;
+  height: 50px;
+  background-color: #0170b9;
+  display: block;
+  position: absolute;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+  top: -10px;
+}
+
+.box .exc {
+  width: 150px;
+  height: 150px;
+  display: block;
+  background-color: #ffc400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  border-radius: 50%;
+  color: #2c2c2c;
+  animation: zig infinite 1s;
+}
+@keyframes zig {
+  10% {
+    transform: rotate(20deg) scale(1.1);
+  }
+
+  100% {
+    transform: rotate(-20deg);
+    transform: rotate(20deg), scale(1.5);
+  }
+}
+
+.box .cell {
+  width: 90px;
+}
+.box p {
+  padding: 30px 10px;
+}
+
+
+.beneficios {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    position: relative;
+}
+
+.beneficios li {
+    margin: 20px;
+
+}
+
+.beneficios li::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0170b9;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 2px;
+
+
+}
+
+
+.beneficios .steps {
+    width: 500px;
+    margin: 25px;
+    padding: 20px;
+}
